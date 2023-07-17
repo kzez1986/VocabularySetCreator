@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="KreatorZestawówSłówek.exe" version="1.0.0.0" publicKeyToken="a5d1bfed54c678b9" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="KreatorZestawówSłówek" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="KreatorZestawówSłówek.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.DataSetExtensions" version="3.5.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Xml.Linq" version="3.5.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KreatorZestawówSłówek.exe" size="11776">
+      <assemblyIdentity name="KreatorZestawówSłówek" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>OOBtdpihrvlU76IEnrXauRzunyA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=Jakub-PC\Jakub" issuerKeyHash="a425106089b4f071ad95c427b293105625e807b9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>3lYfqSSAQYHo1iegdTSn0Z+Smeg=</DigestValue></Reference></SignedInfo><SignatureValue>dCBA1T4scluHP+m/+jpdqcsemOCtA52YOfeYb87vV+41KswLjT57939Ue6x+Qm99fuSiIgusscPmznd/8EvEFFWhGFSsvkzQ3+7TbOqIfsInYyIYOvB9wLYF5GjW3BeYLk0im/2EevlpNvsKw5yZl9Gxxa1Q+Gvo7F1CdGDK1FA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pS4XX2o7m4G/F3etp/L2vpzXVz10Dz9JsEZvK3fura1aCZqlEqWAeKG85lR74szi7b3VO4Q7HmU4m6kFOlIFWBDJ1wrqf/jgAfyNxLTPYuJCxim82V0neGIboRP/BYKJESKCzXSggUfc5Qe99VynFGCr1hTKTBGV5vAB9HPsQUU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e899929fd1a73475a027d6e881418024a91f56de" Description="" Url=""><as:assemblyIdentity name="KreatorZestawówSłówek.exe" version="1.0.0.0" publicKeyToken="a5d1bfed54c678b9" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Jakub-PC\Jakub</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>vswDc4gMgTxNO403zEeYjF/wiXk=</DigestValue></Reference></SignedInfo><SignatureValue>NzUB90zKXqsiBBVhwMoMqZy63uB4VH8TbTDAx+SkJgtWv4xuy89milErqTbDAZW1tRXP1LEtstBUdWj9e0OWt/gxqgmz7eelT0Mj7pV2cMT9OYVq437QTIrhnEi6KFnay+ugHpabcMFrDnszrOfRfezY9pgVBGHneQbIxIoOPTY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pS4XX2o7m4G/F3etp/L2vpzXVz10Dz9JsEZvK3fura1aCZqlEqWAeKG85lR74szi7b3VO4Q7HmU4m6kFOlIFWBDJ1wrqf/jgAfyNxLTPYuJCxim82V0neGIboRP/BYKJESKCzXSggUfc5Qe99VynFGCr1hTKTBGV5vAB9HPsQUU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQNaXKa1W6vrNO04C1ptlgYDANBgkqhkiG9w0BAQUFADAnMSUwIwYDVQQDHhwASgBhAGsAdQBiAC0AUABDAFwASgBhAGsAdQBiMB4XDTA5MTAwMTE2MjMwMFoXDTEwMTAwMTIyMjMwMFowJzElMCMGA1UEAx4cAEoAYQBrAHUAYgAtAFAAQwBcAEoAYQBrAHUAYjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEApS4XX2o7m4G/F3etp/L2vpzXVz10Dz9JsEZvK3fura1aCZqlEqWAeKG85lR74szi7b3VO4Q7HmU4m6kFOlIFWBDJ1wrqf/jgAfyNxLTPYuJCxim82V0neGIboRP/BYKJESKCzXSggUfc5Qe99VynFGCr1hTKTBGV5vAB9HPsQUUCAwEAATANBgkqhkiG9w0BAQUFAAOBgQAuryXlQq8EPnXShjIEGK1q1YeHw0MiVaEjJaW6Ely56zINV7G3KVueeGPOHv/kuUBO72Q0EKI0dR85lrEpWCMly6M6rEaDVAqWVeRzb/kJ5P76qYUwmaBDIdp1VIOKq5+4dhLoP+GjLdq2D884AdAUicRSUkRhb+60Wm0OrkabuA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
